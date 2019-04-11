@@ -1,0 +1,15 @@
+{
+  "name": "Improve the style of railstutorial.jp",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Improve the style of railstutorial.jp",
+  "web_accessible_resources": ["*"],
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://railstutorial.jp/*"],
+      "css": ["style.css"],
+      "js": ["script.js"]
+    }
+  ]
+}

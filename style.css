@@ -1,0 +1,47 @@
+body {
+  background: #f6f6f6 !important;
+}
+#header, #footer, #toppage-title, .menu,
+#謝辞, #推薦の言葉, #copyright, #author, #cha-0_footnotes,
+#sidebar {
+  display: none !important;
+}
+#table_of_contents {
+  font-size: 50%;
+}
+#container {
+  margin: 0 !important;
+}
+#book {
+  background: #eee !important;
+  width: 100% !important;
+  border: 0px !important;
+  padding: 8% !important;
+  line-height: 1.9 !important;
+  font-family: -apple-system, Segoe UI, Helvetica Neue, Hiragino Kaku Gothic ProN, "メイリオ", meiryo,sans-serif !important;
+}
+#content p {
+  color: #333 !important;
+}
+a {
+  color: #333 !important;
+}
+.codelisting {
+  border: 0px !important;
+}
+.heading {
+  background: #dbedff !important;
+}
+.code {
+  background: #f6f6f6 !important;
+  overflow: auto !important;
+  font-size: 70% !important;
+}
+pre, code {
+  line-height: 1.6 !important;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace !important;
+}
+code {
+  color: #9a1515 !important;
+  background: rgba(61, 60, 64, 0.1) !important;
+}
