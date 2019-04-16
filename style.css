@@ -10,6 +10,7 @@ body {
   font-size: 50%;
 }
 #container {
+  width: 1100px !important;
   margin: 0 !important;
 }
 #book {
@@ -37,11 +38,14 @@ a {
   overflow: auto !important;
   font-size: 70% !important;
 }
-pre, code {
+pre {
+  margin: 2em !important;
   line-height: 1.6 !important;
   font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace !important;
 }
 code {
-  color: #9a1515 !important;
-  background: rgba(61, 60, 64, 0.1) !important;
+  color: #c0341d !important;
+  background: #fbe5e1 !important;
+  line-height: 1.6 !important;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace !important;
 }
