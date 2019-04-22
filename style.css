@@ -3,7 +3,7 @@ body {
 }
 #header, #footer, #toppage-title, .menu,
 #謝辞, #推薦の言葉, #copyright, #author, #cha-0_footnotes,
-#sidebar {
+#sidebar, .foot_tweet {
   display: none !important;
 }
 #table_of_contents {
