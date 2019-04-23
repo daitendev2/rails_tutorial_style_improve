@@ -6,6 +6,10 @@ body {
 #sidebar, .foot_tweet {
   display: none !important;
 }
+h1, h2, h3 {
+  font-size: 80% !important;
+  margin: 60px 0px !important;
+}
 #table_of_contents {
   font-size: 50%;
 }
